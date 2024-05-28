@@ -1,0 +1,112 @@
+*{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, p{
+  margin: 0;
+}
+body{
+  background-color: #f2f2f2;
+}
+.container{
+  max-width: 800px;
+  height: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header{
+  text-align: center; 
+  padding-bottom: 20px; 
+  display: flex; 
+  align-items: center; 
+  background-color: transparent;
+  padding: 0px 0px 20px 30px ;
+}
+.img{
+  width: 120px; 
+  height: 120px; 
+  border-radius: 20%; 
+  margin-right: 20px; 
+}
+.mamamo{
+  margin-bottom: 10px;
+}
+h2{
+  margin-top: 10px;
+}
+.icon{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 150px;
+  margin: 0px 0px 0px 100px;
+}
+.btn i{
+  display: block;
+  font-size: 23px;
+}
+.btn span{
+  font-size: 14px;
+  margin-left: 11px;
+}
+.header-content p{
+  margin: 20px;
+  padding: 10px 0px 0px 40px;
+  border-top: 1px solid #ccc;
+}
+.body{
+  border-top: 1px solid #000;
+}
+.body-content{
+  padding: 10px;
+  margin-left: 50px;
+}
+.body-content h4{
+  padding-bottom: 20px;
+}
+.body-content strong{
+  font-size: 16px;
+}
+.body-content p{
+  padding-top: 7px;
+}
+.body-content ul{
+  padding:10px 0px 15px 0px;
+}
+.body-content ul li{
+  margin-left: 15px;
+  padding-bottom: 5px;
+}
+.sub p{
+  padding: 10px 0 20px 0px;
+}
+.footer{
+  padding: 10px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer h4{
+  padding-bottom: 15px;
+}
+.footer-web ,.footer-des{
+  flex: 1;
+  padding: 40px 20px 0px 10px;
+}
+.footer-web ul{
+  list-style-type:circle ;
+  padding: 10px 10px 10px 0px;
+}
+.footer-web ul li{
+  margin-left: 15px;
+}
+.footer-des ul{
+  padding-top: 10px;
+  list-style-type: circle;
+}
+.footer-des ul li{
+  margin-left: 10px;
+}
